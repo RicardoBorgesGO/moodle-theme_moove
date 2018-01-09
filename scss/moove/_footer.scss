@@ -66,10 +66,16 @@
 }
 
 #page-footer {
-    background-color: $m-moodle-color;
+    /*background-color: $m-moodle-color;*/
+    background-color: #FFFFFF;
     text-align: center;
     min-height: inherit;
-    color: #fff;
+    color: #686f7a;
+    border-top: 1px solid #e8e9eb;
+
+    a {
+        color: #686f7a;
+    }
 
     .madewithmoodle {
         margin-bottom: .5rem;
